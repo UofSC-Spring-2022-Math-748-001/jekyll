@@ -1,0 +1,14 @@
+        \documentclass[12pt]{standalone}
+        \usepackage{amsmath,amssymb,tikz-cd,tikz,braids}
+
+        \begin{document}
+        $$
+
+\begin{tikzcd}
+\bigoplus \operatorname{Hom}(C,X_i) \ar[r] \ar[d] & \bigoplus \operatorname{Hom}(C,X_i) \ar[r] \ar[d] & 
+\operatorname{colim}\operatorname{Hom}(C,X_\bullet) \ar[d] \\
+ \operatorname{Hom}(C,  \bigoplus X_i) \ar[r] & \operatorname{Hom}(C, \bigoplus X_i) \ar[r] & 
+\operatorname{Hom}(C,\operatorname{hocolim} X_\bullet)
+\end{tikzcd}
+        $$
+        \end{document}

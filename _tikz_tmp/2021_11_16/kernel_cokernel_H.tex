@@ -1,0 +1,26 @@
+        \documentclass[12pt]{standalone}
+        \usepackage{amsmath,amssymb,tikz-cd,tikz,braids}
+
+        \begin{document}
+        $$
+
+\begin{tikzcd}
+ & 0 \ar[d] & 0 \ar[d] & 0 \ar[d] & 0 \ar[d] \\
+\cdots \ar[r] & \operatorname{ker} \xi_m(E^\prime) \ar[d]  \ar[r]  & 
+\ker \xi_m(E) \ar[d]  \ar[r] & 
+\ker \xi_m(F) \ar[d]  \ar[r] & \ker \xi_m(E^\prime[-1]) \ar[d]  \ar[r] 
+& \cdots \\
+\cdots  \ar[r] & \operatorname{Hom}(E^\prime,X_m) \ar[d] \ar[r] 
+ & \operatorname{Hom}(E,X_m) \ar[d]  \ar[r] & 
+\operatorname{Hom}(F,X_m) \ar[d]  \ar[r] & 
+\operatorname{Hom}(E^\prime[-1],X_m) \ar[d] \ar[r]  & \cdots \\
+\cdots \ar[r]  & H(E^\prime) \ar[r]  \ar[d] & \ar[d] H(E) \ar[r]  & 
+H(F) \ar[d] \ar[r]  & H(E^\prime[-1]) \ar[d] \ar[r]  & \cdots \\ 
+\cdots \ar[r]  & \operatorname{coker} \xi_m(E^\prime) \ar[d] \ar[r]  & 
+\operatorname{coker} \xi_m(E) \ar[d]  \ar[r] & 
+\operatorname{coker} \xi_m(F) \ar[d]  \ar[r] & 
+\operatorname{coker} \xi_m(E^\prime[-1]) \ar[d]  \ar[r] & \cdots \\
+& 0 & 0 & 0 & 0 \\
+\end{tikzcd}
+        $$
+        \end{document}

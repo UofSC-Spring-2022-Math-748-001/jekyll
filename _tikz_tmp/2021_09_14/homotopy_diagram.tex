@@ -1,0 +1,25 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (01) at (-2,2) {$C^{i-1}$};
+    \node (02) at (0,2) {$C^i$};
+    \node (03) at (2,2) {$C^{i+1}$};
+    \node (11) at (-2,0) {$D^{i-1}$};
+    \node (12) at (0,0) {$D^i$};
+    \node (13) at (2,0) {$D^{i+1}$};
+    \draw[->] (01) -- (11);
+    \draw[->] (02) -- node[right] {$f,g$}(12);
+    \draw[->] (03) -- (13);
+    \draw[->] (01) -- (02);
+    \draw[->,ultra thick] (02) -- (03);
+    \draw[->,ultra thick] (11) -- (12);
+    \draw[->] (12) -- (13);
+    \draw[->,ultra thick] (03) -- node[below right] {$h^{i+1}$} (12);
+    \draw[->,ultra thick] (02) -- node[below right] {$h^{i}$} (11);
+        \end{tikzpicture}
+        \end{document}

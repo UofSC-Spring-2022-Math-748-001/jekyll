@@ -1,0 +1,36 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (00) at (-4,2) {$\cdots$};
+    \node (01) at (-2,2) {$0$};
+    \node (02) at (0,2) {$k[x]$};
+    \node (03) at (2,2) {$k[x]$};
+    \node (04) at (4,2) {$0$};
+    \node (05) at (6,2) {$\cdots$};
+    \node (10) at (-4,0) {$\cdots$};
+    \node (11) at (-2,0) {$0$};
+    \node (12) at (0,0) {$0$};
+    \node (13) at (2,0) {$k[x]/(x)$};
+    \node (14) at (4,0) {$0$};
+    \node (15) at (6,0) {$\cdots$};
+    \draw[->] (01) -- (11);
+    \draw[->] (02) -- (12);
+    \draw[->] (03) -- (13);
+    \draw[->] (04) -- (14);
+    \draw[->] (00) -- (01);
+    \draw[->] (01) -- (02);
+    \draw[->] (02) -- (03);
+    \draw[->] (03) -- (04);
+    \draw[->] (04) -- (05);
+    \draw[->] (10) -- (11);
+    \draw[->] (11) -- (12);
+    \draw[->] (12) -- (13);
+    \draw[->] (13) -- (14);
+    \draw[->] (14) -- (15);
+        \end{tikzpicture}
+        \end{document}

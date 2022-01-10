@@ -1,0 +1,11 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node at (0,0) (0) {$\bullet$};
+    \node at (2,0) (1) {$\bullet$};
+    \draw [->] (0) to [out=30,in=150] (1); 
+    \draw [->] (0) to [out=-30,in=-150] (1);
+        \end{tikzpicture}
+        \end{document}

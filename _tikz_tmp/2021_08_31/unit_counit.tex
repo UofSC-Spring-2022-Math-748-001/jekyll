@@ -1,0 +1,14 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usepackage{amsmath}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node at (0,0) (G1) {$G$};
+    \node at (4,0) (GFG) {$GFG$};
+    \node at (8,0) (G2) {$G$};
+    \draw[->] (G1) -- node[above] {$F(\eta)$} (GFG);
+    \draw[->] (GFG) -- node[above] {$\epsilon_F$} (G2);
+    \draw[->] (G1) to [out=30,in=150] node[above] {$1$} (G2) 
+        \end{tikzpicture}
+        \end{document}

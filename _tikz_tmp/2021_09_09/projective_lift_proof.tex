@@ -1,0 +1,18 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (P1) at (0,0) {$P$};
+    \node (F) at (-2,-2) {$F$};
+    \node (P2) at (0,-2) {$P$};
+    \node (0) at (2,-2) {$0$};
+    \draw[->] (P1) -- node[right] {$1_P$} (P2);
+    \draw[->,dashed] (P1) -- node[above left] {$\exists ~i$} (F);
+    \draw[->] (P2) -- (0);
+    \draw[->] (F) -- node[below] {$\pi$} (P2);
+        \end{tikzpicture}
+        \end{document}

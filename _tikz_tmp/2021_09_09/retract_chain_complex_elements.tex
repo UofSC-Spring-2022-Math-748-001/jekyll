@@ -1,0 +1,25 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (A2) at (0,0) {$a$};
+    \node (A3) at (2,0) {$0$};
+    \node (B1) at (-2,-2) {$b^\prime$};
+    \node (B2) at (0,-2) {$b$};
+    \node (B3) at (2,-2) {$0$};
+    \node (A12) at (-2,-4) {$a^\prime$};
+    \node (A22) at (0,-4) {$a$};
+    \draw[|->] (A2) -- (A3);
+    \draw[|->] (B1) -- node[above] {$\exists$} (B2);
+    \draw[|->] (B2) -- (B3);
+    \draw[|->] (A12) -- (A22);
+    \draw[|->] (A2) -- (B2);
+    \draw[|->] (A3) -- (B3);
+    \draw[|->] (B1) -- (A12);
+    \draw[|->] (B2) -- (A22);
+        \end{tikzpicture}
+        \end{document}

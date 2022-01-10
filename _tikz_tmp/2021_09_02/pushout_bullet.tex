@@ -1,0 +1,15 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (X) at (2,0) {$\bullet$};
+    \node (Y) at (0,-2) {$\bullet$};
+    \node (Z) at (0,0) {$\bullet$};
+    \draw[->] (Z) -- (X);
+    \draw[->] (Z) -- (Y);
+        \end{tikzpicture}
+        \end{document}

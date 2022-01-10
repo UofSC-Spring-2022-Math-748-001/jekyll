@@ -1,0 +1,106 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Derived Categories
+tagline: Fall 2022 Math 748 at UofSC
+description: We will localize some categories and have fun doing it. 
+author: Matthew Ballard
+baseurl: '' # the subpath of your site, e.g. /blog
+url: https://748.s22.matthewrobertballard.com # the base hostname & protocol for your site, e.g. http://example.com
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+pdf2svg: '/usr/bin/pdf2svg'
+# logo: '/assets/images/beta.png'
+
+# Theme settings
+# remote_theme: pmarsceill/just-the-docs@v0.3.3
+# theme: "just-the-docs"
+color_scheme: usc
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links:
+  Matthew Ballard:
+    - 'https://www.matthewrobertballard.com'
+  Zulip:
+    - 'https://scagnt.zulipchat.com'
+  GitHub: 
+    - 'https://classroom.github.com/classrooms/88558107-uofsc-fall-2021-math-738-001'
+  Teams:
+    - 'https://teams.microsoft.com/l/team/19%3am7sMpRskwXsB5SC5HX4uuaTIG2Ux56ChImvB3o2aMB41%40thread.tacv2/conversations?groupId=a8908864-beb6-45da-9c7d-2bb454080245&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc'
+footer_content: '<a href="https://738.f21.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2021 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
+
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
+  citables: 
+    output: true
+  homework:
+  worksheet: 
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+  - scope:
+      path: ''
+      type: citables
+    values:
+      layout: citable
+  - scope:
+      path: ''
+      type: homework
+    values:
+      layout: page 
+  - scope:
+      path: ''
+      type: worksheets
+    values:
+      layout: page
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# kramdown:
+#   math_engine: nil
+
+plugins:
+  - jekyll-seo-tag
+    # - jekyll-katex

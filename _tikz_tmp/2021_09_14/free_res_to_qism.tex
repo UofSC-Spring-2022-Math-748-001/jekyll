@@ -1,0 +1,31 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (NLL) at (-4,-2) {$\cdots$};
+    \node (02) at (-2,-2) {$0$};
+    \node (M) at (0,-2) {$M$};
+    \node (03) at (2,-2) {$0$};
+    \node (NLR) at (4,-2) {$\cdots$};
+    \node (NUR) at (4,0) {$\cdots$};
+    \node (04) at (2,0) {$0$};
+    \node (F0) at (0,0) {$F^0$};
+    \node (F1) at (-2,0) {$F^{-1}$};
+    \node (NUL) at (-4,0) {$\cdots$};
+    \draw[->] (NLL) -- (02);
+    \draw[->] (02) -- (M);
+    \draw[->] (M) -- (03);
+    \draw[->] (03) -- (NLR);
+    \draw[->] (NUL) -- (F1);
+    \draw[->] (F1) -- (F0);
+    \draw[->] (F0) -- (04);
+    \draw[->] (04) -- (NUR); 
+    \draw[->] (F1) -- (02);
+    \draw[->] (F0) -- (M);
+    \draw[->] (04) -- (03);
+        \end{tikzpicture}
+        \end{document}

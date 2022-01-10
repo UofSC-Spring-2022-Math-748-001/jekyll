@@ -1,0 +1,16 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (X) at (0,0) {$X$};
+    \node (Y) at (2,0) {$Y$};
+    \node (I) at (0,-2) {$I$};
+    \draw[->] (X) -- node[left] {$\psi$} (I);
+    \draw[->,dashed] (Y) -- node[below right] {$\exists ~\tilde{\psi}$} (I);
+    \draw[right hook->] (X) -- (Y);
+        \end{tikzpicture}
+        \end{document}

@@ -1,0 +1,18 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node at (0,0) (X1) {$X$};
+    \node at (2,0) (Y1) {$Y$};
+    \node at (0,-2) (X2) {$X$};
+    \node at (2,-2) (Y2) {$Y$};
+    \draw[->] (X1) -- node[above] {$f$} (Y1);
+    \draw[->] (X1) -- node[left] {$\nu_X$} (X2);
+    \draw[->] (X2) -- node[below] {$f$} (Y2);
+    \draw[->] (Y1) -- node[right] {$\nu_Y$} (Y2);
+        \end{tikzpicture}
+        \end{document}

@@ -1,0 +1,15 @@
+        \documentclass{standalone}
+        \usepackage{tikz}
+        \usetikzlibrary{arrows}
+        \usepackage{amsmath}
+        \usepackage{amsfonts}
+        \begin{document}
+        \begin{tikzpicture}
+
+    \node (X) at (0,0) {$(m)$};
+    \node (Y) at (2,0) {$\mathbb{Z}$};
+    \node (I) at (0,-2) {$I$};
+    \draw[->] (X) -- node[left] {$\psi$} (I);
+    \draw[right hook->] (X) -- (Y);
+        \end{tikzpicture}
+        \end{document}
