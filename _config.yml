@@ -36,10 +36,10 @@ aux_links:
   Zulip:
     - 'https://scagnt.zulipchat.com'
   GitHub: 
-    - 'https://classroom.github.com/classrooms/88558107-uofsc-fall-2021-math-738-001'
+    - 'https://github.com/UofSC-Spring-2022-Math-748-001'
   Teams:
     - 'https://teams.microsoft.com/l/team/19%3am7sMpRskwXsB5SC5HX4uuaTIG2Ux56ChImvB3o2aMB41%40thread.tacv2/conversations?groupId=a8908864-beb6-45da-9c7d-2bb454080245&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc'
-footer_content: '<a href="https://738.f21.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2021 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
+footer_content: '<a href="https://748.s21.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2022 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Spring-2022-Math-748-001.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
 
 # Collections for website data
 collections:
