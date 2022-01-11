@@ -1,16 +1,15 @@
 ---
-title: Categories
-ended: true 
+title: Derived categories of projective spaces
+ended: false 
 ---
 
-Aug 24 
-: [**Definitions of categories and examples**]({% link notes/2021_08_24.md %})
+Jan 10
+: [Quasi-coherent sheaves on projective varieties]({% link notes/2022_01_10.md %})
 
-Aug 26 
-: [**Functors, natural transformations, and equivalences**]({% link notes/2021_08_26.md %})
+Jan 12
+: [Cech cohomology]({% link notes/2022_01_12.md %})
 
-Aug 31
-: [**Adjunctions**]({% link notes/2021_08_31.md %})
+Jan 17
+: [Cotangent sheaves]({% link notes/2022_01_17.md %})
 
-Sept 2
-: [**Representable functors and Yoneda**]({% link notes/2021_09_02.md %})
+
