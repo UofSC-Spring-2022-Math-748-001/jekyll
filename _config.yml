@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Derived Categories
-tagline: Fall 2022 Math 748 at UofSC
+tagline: Spring 2022 Math 748 at UofSC
 description: We will localize some categories and have fun doing it. 
 author: Matthew Ballard
 baseurl: '' # the subpath of your site, e.g. /blog
