@@ -47,8 +47,6 @@ collections:
   modules:
   schedules:
   announcements:
-  citables: 
-    output: true
   homework:
   worksheet: 
 # Default layouts for each collection type
@@ -74,11 +72,6 @@ defaults:
       type: announcements
     values:
       layout: announcement
-  - scope:
-      path: ''
-      type: citables
-    values:
-      layout: citable
   - scope:
       path: ''
       type: homework
