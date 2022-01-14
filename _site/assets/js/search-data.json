@@ -2,469 +2,469 @@
     "doc": "Homework 0",
     "title": "Homework 0",
     "content": "Due 2021-08-26 . | Complete homework 0 on the GitHub Classroom. | . ",
-    "url": "https://748.s22.matthewrobertballard.com/homework/0/",
+    "url": "http://localhost:4000/homework/0/",
     "relUrl": "/homework/0/"
   },"1": {
     "doc": "Homework 2",
     "title": "Homework 2",
     "content": "Due 2021-10-21 . | Complete homework 2. | . ",
-    "url": "https://748.s22.matthewrobertballard.com/homework/02/",
+    "url": "http://localhost:4000/homework/02/",
     "relUrl": "/homework/02/"
   },"2": {
     "doc": "Homework 1",
     "title": "Homework 1",
     "content": "Due 2021-09-15 . | Complete homework 1 on the GitHub Classroom. | . ",
-    "url": "https://748.s22.matthewrobertballard.com/homework/1/",
+    "url": "http://localhost:4000/homework/1/",
     "relUrl": "/homework/1/"
   },"3": {
-    "doc": "2022-01-10",
+    "doc": "2022-01-11",
     "title": "Quasi-coherent sheaves on projective varieties",
-    "content": "Let $R$ be a $\\mathbb{N}$-graded commutative ring. We constructed a functor \\(\\widetilde{(-)} : \\operatorname{GrMod} R \\to \\operatorname{Qcoh} X\\) where $X = \\operatorname{Proj} R$ and a functor in the other direction \\(\\begin{aligned} \\underline{\\Gamma}(X,-) : \\operatorname{Qcoh} X &amp; \\to \\operatorname{GrMod} R \\\\ \\mathcal F &amp; \\mapsto \\bigoplus_{i=0}^\\infty \\Gamma(X,\\mathcal F(i)) \\end{aligned}\\) . Let’s think a little more about their relationsip. For any $m \\in M_l$, we get a map \\(\\begin{aligned} m : R &amp; \\to M(l) \\\\ r &amp; \\mapsto rm \\end{aligned}\\) Applying $\\widetilde{(-)}$, we get a map \\(\\mathcal O_X \\to \\widetilde{M}(l)\\) and hence an element of $\\Gamma(X,\\widetilde{M}(l))$. This gives a natural transformation \\(\\eta_M : M \\to \\underline{\\Gamma}(X,\\widetilde{M})\\) . Similarly, for any $\\mathcal O_X$-module $\\mathcal F$, there is a natural transformation \\(\\epsilon_{\\mathcal F} : \\widetilde{\\underline{\\Gamma}(\\mathcal F)} \\to \\mathcal F\\) which we describe on the principal opens $U_x$ for $x \\in R_i$ with $i &gt; 0$. We have \\(\\widetilde{\\underline{\\Gamma}(\\mathcal F)}(U_x) = (\\underline{\\Gamma}(\\mathcal F)_x)_0\\) Each element of $(\\underline{\\Gamma}(\\mathcal F)_x)_0$ can be written as \\(\\frac{f}{x^s}\\) where $f : \\mathcal O \\to \\mathcal F(si)$ and $x \\in R_i$. Restricting to $U_x$ we get an element $f|_{U_x} \\in \\Gamma(U_x,\\mathcal F(si))$. On $U_x$, we have an isomorphism $1/x^s : \\mathcal F(is) \\to \\mathcal F$. Thus, we get an element \\(\\frac{1}{x^s} f|_{U_x} \\in \\Gamma(U_x,\\mathcal F)\\) giving an element of $\\mathcal F(U_x)$. Lemma. If $R$ is finitely-generated in degree $1$ as a graded $k$-algebra and $\\mathcal F$ is quasi-coherent, then $\\epsilon_{\\mathcal F}$ is an isomorphism. Proof. (Expand to view) From the above, we see that $\\eta_{\\mathcal F}(f/x^s) = 0$ if and only if $f|_{U_x} = 0$. Thus, $f = 0$ away from $Z(x)$. Let $x_0,\\ldots,x_n$ denote our generators in degree $1$. We have a affine cover $U_{x_j}$ and $$ Z(x) \\cap U_{x_j} = Z(x/x_j^i) $$ is a hypersurface in each $U_j$. Then $M := \\Gamma(U_{x_j},\\mathcal F(is))$ is a $R := (R_{x_j})_0$ module and $f \\in M$. We know that $f = 0$ in $M_{x/x_j^i}$ so there is some $n_j$ with $$ \\frac{x^{n_j}}{x_j^{n_j i}} f = 0 $$ on $U_{x_j}$. Taking the max of the $n_j$, we see that there is some $x$ with $x^n f = 0$ on all of $X$. Thus, $f = 0$ in $\\underline{\\Gamma}(\\mathcal F)_x$ already and $\\epsilon_{\\mathcal F}$ is injective. A similar argument shows that for any $s \\in \\Gamma(U_x,\\mathcal F)$ there is some $n &gt; 0$ so that $x^n s$ lifts to $\\Gamma(X,\\mathcal F(ni)$. This shows that $\\epsilon_{\\mathcal F}$ is surjective. &#9632; . Proposition. The natural transformations $\\eta$ and $\\epsilon$ induce an adjunction $\\widetilde{(-)} \\dashv \\underline{\\Gamma}$. Proof. (Expand to view) Using a [theorem](https://738.f21.matthewrobertballard.com/notes/2021-08-31/) from last semester, we have to check that $$ \\widetilde{M} \\overset{\\widetilde{\\eta_M}}{\\to} \\widetilde{ \\underline{\\Gamma}(\\widetilde{M})} \\overset{\\epsilon_{\\widetilde{M}}}{\\to} \\widetilde{M} $$ and $$ \\underline{\\Gamma}(\\mathcal F) \\overset{\\eta_{\\underline{\\Gamma} (\\mathcal F)}}{\\to} \\underline{\\Gamma}(\\widetilde{\\widetilde{ \\Gamma}(\\mathcal F)} \\overset{\\underline{\\Gamma}(\\epsilon_{\\mathcal F})}{\\to} \\underline{\\Gamma}(\\mathcal F) $$ are both identity maps. &#9632; . ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/2022_01_10/#quasi-coherent-sheaves-on-projective-varieties",
-    "relUrl": "/notes/2022_01_10/#quasi-coherent-sheaves-on-projective-varieties"
+    "content": "Let $R$ be a $\\mathbb{N}$-graded commutative ring. We constructed a functor \\(\\widetilde{(-)} : \\operatorname{GrMod} R \\to \\operatorname{Mod} X\\) where $X = \\operatorname{Proj} R$ and a functor in the other direction \\(\\begin{aligned} \\underline{\\Gamma}(X,-) : \\operatorname{Mod} X &amp; \\to \\operatorname{GrMod} R \\\\ \\mathcal F &amp; \\mapsto \\bigoplus_{i \\in \\mathbb{Z}} \\Gamma(X,\\mathcal F(i)) \\end{aligned}\\) . Let’s think a little more about their relationsip. For any $m \\in M_l$, we get a map \\(\\begin{aligned} m : R &amp; \\to M(l) \\\\ r &amp; \\mapsto rm \\end{aligned}\\) Applying $\\widetilde{(-)}$, we get a map \\(\\mathcal O_X \\to \\widetilde{M}(l)\\) and hence an element of $\\Gamma(X,\\widetilde{M}(l))$. This gives a natural transformation \\(\\eta_M : M \\to \\underline{\\Gamma}(X,\\widetilde{M})\\) . Similarly, for any $\\mathcal O_X$-module $\\mathcal F$, there is a natural transformation \\(\\epsilon_{\\mathcal F} : \\widetilde{\\underline{\\Gamma}(\\mathcal F)} \\to \\mathcal F\\) which we describe on the principal opens $U_x$ for $x \\in R_i$ with $i &gt; 0$. We have \\(\\widetilde{\\underline{\\Gamma}(\\mathcal F)}(U_x) = (\\underline{\\Gamma}(\\mathcal F)_x)_0\\) Each element of $(\\underline{\\Gamma}(\\mathcal F)_x)_0$ can be written as \\(\\frac{f}{x^s}\\) where $f \\in \\Gamma(X, \\mathcal F(si))$ and $x \\in R_i$. Restricting to $U_x$ we get an element $f|_{U_x} \\in \\Gamma(U_x,\\mathcal F(si))$. On $U_x$, we have an isomorphism $1/x^s : \\mathcal F(is) \\to \\mathcal F$. Thus, we get an element \\(\\frac{1}{x^s} f|_{U_x} \\in \\Gamma(U_x,\\mathcal F)\\) giving an element of $\\mathcal F(U_x)$. Proposition. The natural transformations $\\eta$ and $\\epsilon$ induce an adjunction $\\widetilde{(-)} \\dashv \\underline{\\Gamma}$. Proof. (Expand to view) Using a theorem from last semester, we have to check that \\(\\widetilde{M} \\overset{\\widetilde{\\eta_M}}{\\to} \\widetilde{ \\underline{\\Gamma}(\\widetilde{M})} \\overset{\\epsilon_{\\widetilde{M}}}{\\to} \\widetilde{M}\\) and \\(\\underline{\\Gamma}(\\mathcal F) \\overset{\\eta_{\\underline{\\Gamma} (\\mathcal F)}}{\\to} \\underline{\\Gamma}(\\widetilde{\\underline{ \\Gamma}(\\mathcal F)}) \\overset{\\underline{\\Gamma}(\\epsilon_{\\mathcal F})}{\\to} \\underline{\\Gamma}(\\mathcal F)\\) are both identity maps. For the $\\epsilon_{\\widetilde{M}} \\circ \\widetilde{\\eta_M}$, we check the map is the identity for sections over each principal open $U_x$. Given $m/x^i \\in \\widetilde{M}(U_x)$, we have \\(\\widetilde{\\eta_M}(m/x^i) = \\frac{\\eta_M(m)}{x^i}\\) restricting $\\eta_M(m)$ back to $U_x$ gives $m \\in \\Gamma(U_x, \\widetilde{M}(|m|))$. For $\\underline{\\Gamma}(\\epsilon_{\\mathcal F}) \\circ \\eta_{\\underline{\\Gamma}(\\mathcal F)}$, if we take $f \\in \\Gamma(X,\\mathcal F(l))$, then \\(\\eta_{\\underline{\\Gamma}(\\mathcal F)}(f) : \\mathcal O \\to \\widetilde{\\underline{\\Gamma}(\\mathcal F)}(l)\\) corresponds to global section $\\widetilde{\\underline{\\Gamma} (\\mathcal F)}(l)$ of which is $f$ on each $U_x$. Applying $\\underline{\\Gamma}(\\epsilon_{\\mathcal F})$, we see we get $f$ back. &#9632; &nbsp; Under some mild assumptions, we see that $\\widetilde{(-)}$ hits all quasi-coherent sheaves on $X$. Lemma. If $R$ is finitely-generated in degree $1$ as a graded $k$-algebra and $\\mathcal F$ is quasi-coherent, then $\\epsilon_{\\mathcal F}$ is an isomorphism. Proof. (Expand to view) From the above, we see that $\\eta_{\\mathcal F}(f/x^s) = 0$ if and only if $f|_{U_x} = 0$. Thus, $f = 0$ away from $Z(x)$. Let $x_0,\\ldots,x_n$ denote our generators in degree $1$. We have a affine cover $U_{x_j}$ and \\(Z(x) \\cap U_{x_j} = Z(x/x_j^i)\\) is a hypersurface in each $U_j$. Then $M := \\Gamma(U_{x_j},\\mathcal F(is))$ is a $R := (R_{x_j})_0$ module and $f \\in M$. We know that $f = 0$ in $M_{x/x_j^i}$ so there is some $n_j$ with \\(\\frac{x^{n_j}}{x_j^{n_j i}} f = 0\\) on $U_{x_j}$. Taking the max of the $n_j$, we see that there is some $x$ with $x^n f = 0$ on all of $X$. Thus, $f = 0$ in $\\underline{\\Gamma}(\\mathcal F)_x$ already and $\\epsilon_{\\mathcal F}$ is injective. A similar argument shows that for any $s \\in \\Gamma(U_x,\\mathcal F)$ there is some $n &gt; 0$ so that $x^n s$ lifts to $\\Gamma(X,\\mathcal F(ni)$. This shows that $\\epsilon_{\\mathcal F}$ is surjective. &#9632; &nbsp; Recall that for a graded $R$-module $M$, we have its torsion submodule \\(\\tau(M) := \\lbrace m \\in M \\mid \\exists ~n_0 &gt; 0, (R_+)^n m = 0 ~\\forall n \\geq n_0 \\rbrace\\) and we say a $M$ is torsion if \\(\\tau(M) = M\\) The module is torsion-free if \\(\\tau(M) = 0\\) . There is a short exact sequence \\(0 \\to \\tau(M) \\to M \\to M/\\tau(M) \\to 0\\) Since \\(\\widetilde{\\tau(M)} = 0\\) there is a natural map \\(\\alpha_M : M/\\tau(M) \\to \\underline{\\Gamma}(\\widetilde{M})\\) . Lemma. Assume $R$ is finitely-generated over $k$ in degree $1$ by $x_0,\\ldots,x_n$ and that each $x_i$ is not a zero-divisor. Then $\\alpha_M$ is injective . Proof. (Expand to view) The kernel of $M \\to \\underline{\\Gamma}(\\widetilde{M})$ consists of $m \\in M$ such that $(m) = 0$ in $(M_x)_0$ for all homogeneous $x \\in R_+$. Let $x_0,\\ldots,x_n$ denote the generators of $R$ over $k$ in degree $1$. Let $m \\in \\operatorname{ker} \\alpha_M$ be an element of degree $l$. Then $m/x_i^l = 0$ for each $i$ and $x_i^{n_i}m = 0$ for some $n_i$. Thus, for large enough $n$ we have $(R_+)^n m = 0$ and so $m \\in \\operatorname{Tors}(M)$. &#9632; &nbsp; We can describe $\\tau(M)$ as \\(\\tau(M) \\cong \\operatorname{colim}_s \\underline{\\operatorname{Hom}}(R/(R_+)^s,M)\\) where \\(\\underline{\\operatorname{Hom}}(M,N) := \\bigoplus_{i \\in \\mathbb{Z}} \\operatorname{Hom}(M,N(i))\\) is the internal Hom for graded modules. There are also the exact sequences \\(0 \\to (R_+)^s \\to R \\to R/(R_+)^s\\) which gives an exact sequence \\(0 \\to \\operatorname{colim}_s \\underline{\\operatorname{Hom}}(R/(R_+)^s,M) \\to M \\to \\operatorname{colim}_s \\underline{\\operatorname{Hom}}((R_+)^s,M)\\) similar to the sequence \\(0 \\to \\tau(M) \\to M \\to \\underline{\\Gamma}(\\widetilde{M})\\) which leads us to compare $\\underline{\\Gamma}(\\widetilde{M})$ and $\\operatorname{colim}_s \\underline{\\operatorname{Hom}}((R_+)^s,M)$ . Since \\(\\cdots \\to \\widetilde{(R_+)^{s+1}} \\to \\widetilde{(R_+)^s} \\to \\cdots \\to \\widetilde{R_+} \\to \\widetilde{R}\\) are all isomorphisms, we see that any \\(\\phi \\in \\operatorname{colim} \\operatorname{Hom} ((R_+)^s,M(l))\\) induces a well-defined \\(\\widetilde{\\phi} : \\mathcal O \\to \\widetilde{M}(l)\\) and hence an element of $\\underline{\\Gamma}(\\widetilde{M})$. Let’s denote this map by \\(\\beta_M : \\operatorname{colim}_s \\underline{\\operatorname{Hom}}((R_+)^s,M) \\to \\underline{\\Gamma}(\\widetilde{M})\\) . Lemma. Assume that $R$ is finitely-generated over $k$ by elements of degree $1$. Then $\\beta_M$ is an isomorphism for all $M$. Proof. (Expand to view) An element of $\\Gamma(X,\\widetilde{M}(l))$ is a collection of homogeneous elements $m_f \\in M$ for each homogeneous $f \\in R_+$ so that . | there is $s_f$ such that $m_f/f^{s_f}$ has degree $l$ and | for any $f,g$ \\(\\frac{m_f}{f^{s_f}} = \\frac{m_g}{g^{s_g}}\\) in $M_{fg}$. | . Let $x_1,\\ldots,x_n$ denote a set of homogeneous generators for $R$ over $k$. We claim that the function $\\phi$ which assigns $\\phi(x_i^{s_i}) = m_{x_i}$ extends to a well-defined module map $(R_+)^s \\to M(l)$ for some $s$. This gives the inverse to $\\beta_M$. Let’s check that this construction yields a well-defined homomorphism. Up to replacing $m_i$ with $x_i^{l_i}$ and $s_i$ with $s_i+l_i$, we can assume that \\(m_i = \\frac{x_i^{s_i}}{x_j^{s_j}}m_j\\) in $M_{x_j}$. If we have a relation of the form \\(a_1x_1^{s_1} + \\cdots + a_n x_n^{s_n} = 0\\) then in $M_{x_i}$ we have \\(\\begin{aligned} a_1 m_1 + \\cdots a_n m_n &amp; = a_1 \\frac{x_1^{s_1}}{x_i^{s_i}}m_i + \\cdots + a_n \\frac{x_1^{s_1}}{x_i^{s_i}}m_i \\\\ &amp; = \\frac{m_i}{x_i^{s_i}} \\left( a_1 x_1^{s_1} + \\cdots + a_n x_n^{s_n} \\right) = 0 \\end{aligned}\\) Thus, $a_1 m_1 + \\cdots + a_n m_n$ is annihilated by some power of each $x_i$. Passing to a sufficient high power of $R_+$ forces this to vanish. &#9632; &nbsp; As a corollary, we get short exact sequences. Corollary. Assume that $R$ is finitely-generated by elements of degree $1$ over $k$. Then, for each injective graded $R$-module $I$ we have a short exact sequence \\(0 \\to \\tau(I) \\to I \\to \\underline{\\Gamma}(\\widetilde{I}) \\to 0\\) . Proof. (Expand to view) Since $I$ is injective, we get short exact sequences \\(0 \\to \\operatorname{Hom}(R/(R_+)^s,I(l)) \\to I_l \\to \\operatorname{Hom}((R_+)^s,I(l)) \\to 0\\) taking direct sums and passing to the colimit gives the result. &#9632; &nbsp; Note the map $M \\to \\underline{\\Gamma}(\\widetilde{M})$ is not always onto. Example. Take $k[x]$ with $|x| = 1$. Then, \\(\\underline{\\Gamma}(\\widetilde{k[x]}) = k[x,x^{-1}]\\) . As consequence, we get a semi-orthogonal decomposition relating graded $R$-modules and quasi-coherent sheaves on $\\operatorname{Proj} R$. Proposition. Assume that $R$ is finitely-generated by elements of degree $1$ over $k$. Then there are semi-orthogonal decompositions \\(D^\\dagger(\\operatorname{GrMod} R) = \\langle D^\\dagger(\\operatorname{GrMod}_{\\operatorname{Tors}} R), D^\\dagger(\\operatorname{Qcoh} \\operatorname{Proj} R) \\rangle\\) where $\\dagger \\in \\lbrace b,+,,-,\\emptyset \\rbrace$. Here $\\operatorname{GrMod}_{\\operatorname{Tors}} R$ denotes the abelian subcategory of torsion graded $R$-modules. Proof. (Expand to view) For each complex of injectives $I$, we have a short exact sequence of complexes \\(0 \\to \\tau(I) \\to I \\to \\underline{\\Gamma} (\\widetilde{I}^\\bullet) \\to 0\\) and thus a triangle \\(\\tau(I) \\to I \\to \\underline{\\Gamma} (\\widetilde{I}^\\bullet) \\to \\tau(I)[1]\\) Each component of $\\tau(I)$ is torsion. Thanks to adjunction we have \\(\\operatorname{Hom}(\\tau(I),\\underline{\\Gamma}(\\widetilde{J})) \\cong \\operatorname{Hom}(\\widetilde{\\tau(I)}, \\widetilde{J}) = 0\\) so we have semi-orthogonality. It remains to check that $\\underline{\\Gamma}$ is fully-faithful and the derived functors of $\\tau$ and $\\underline{\\Gamma}$ preserve cohomological boundedness. Using adjunction, we have \\(\\operatorname{Hom}(\\underline{\\Gamma}(\\widetilde{I}), \\underline{\\Gamma}(\\widetilde{J})) \\cong \\operatorname{Hom}(\\widetilde{I}, \\widetilde{\\underline{\\Gamma}(\\widetilde{J})})\\) And \\(\\operatorname{Hom}(\\widetilde{I}, \\widetilde{\\underline{\\Gamma}(\\widetilde{J})}) \\cong \\operatorname{Hom}(\\widetilde{I}, \\widetilde{J})\\) since \\(\\widetilde{\\underline{\\Gamma}(\\widetilde{J})} \\to \\widetilde{J}\\) is an isomorphism. Finally, from the triangle we see that $\\mathbf{R}^i\\tau = 0$ for $i \\gg 0$ if and only if $\\mathbf{R}^i \\underline{\\Gamma} = 0$ for $i \\gg 0$. We will see next that $\\mathbf{R}^i \\underline{\\Gamma} = 0$ for $i &gt; N$ where $N$ is the number of generators of $R$ over $k$. &#9632; &nbsp; Remark. | One can remove the condition that the finite set of generators of $R$ are of degree $1$ if we work with the quotient stack $[U/\\mathbb{G}_m]$ with the quasi-affine $U = \\operatorname{Spec} R \\setminus {R_+}$ instead of $\\operatorname{Proj} R$. | One would like to replace $\\operatorname{GrMod}$ and $\\operatorname{Qcoh}$ with their finite versions $\\operatorname{grmod}$ and $\\operatorname{coh}$. This can be done but one needs to truncate the grading. | . ",
+    "url": "http://localhost:4000/notes/2022_01_11/#quasi-coherent-sheaves-on-projective-varieties",
+    "relUrl": "/notes/2022_01_11/#quasi-coherent-sheaves-on-projective-varieties"
   },"4": {
-    "doc": "2022-01-10",
-    "title": "2022-01-10",
+    "doc": "2022-01-11",
+    "title": "2022-01-11",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/2022_01_10/",
-    "relUrl": "/notes/2022_01_10/"
+    "url": "http://localhost:4000/notes/2022_01_11/",
+    "relUrl": "/notes/2022_01_11/"
   },"5": {
-    "doc": "2022-01-12",
+    "doc": "2022-01-13",
     "title": "Cech cohomology",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/2022_01_12/#cech-cohomology",
-    "relUrl": "/notes/2022_01_12/#cech-cohomology"
+    "url": "http://localhost:4000/notes/2022_01_13/#cech-cohomology",
+    "relUrl": "/notes/2022_01_13/#cech-cohomology"
   },"6": {
-    "doc": "2022-01-12",
-    "title": "2022-01-12",
+    "doc": "2022-01-13",
+    "title": "2022-01-13",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/2022_01_12/",
-    "relUrl": "/notes/2022_01_12/"
+    "url": "http://localhost:4000/notes/2022_01_13/",
+    "relUrl": "/notes/2022_01_13/"
   },"7": {
-    "doc": "2022-01-17",
+    "doc": "2022-01-18",
     "title": "The cotangent sheaf",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/2022_01_17/#the-cotangent-sheaf",
-    "relUrl": "/notes/2022_01_17/#the-cotangent-sheaf"
+    "url": "http://localhost:4000/notes/2022_01_18/#the-cotangent-sheaf",
+    "relUrl": "/notes/2022_01_18/#the-cotangent-sheaf"
   },"8": {
-    "doc": "2022-01-17",
-    "title": "2022-01-17",
+    "doc": "2022-01-18",
+    "title": "2022-01-18",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/2022_01_17/",
-    "relUrl": "/notes/2022_01_17/"
+    "url": "http://localhost:4000/notes/2022_01_18/",
+    "relUrl": "/notes/2022_01_18/"
   },"9": {
     "doc": "About",
     "title": "Syllabus",
     "content": ". | Course Information . | Course Name and Number | Term | Meeting Time and Location | Instructor Information | Office Hours | Full Course Description | Prerequisites | Learning Outcomes | Course Materials | . | Course Requirements . | Course Format | Course Communication | Technology | Minimal Technical Skills Needed | Technical Support | . | Course Assignments and Grading . | Homework | Paper | Evaluation and Grading Scale . | Assignment Weights | Grading Scale | . | Assignment Submission | Revisions | . | Academic Success . | Accessibility | University Library Resources | Teams and Technology | Counseling Services | . | Course Policies and Procedures . | Attendance Policy and COVID Reporting | COVID Policies . | Questions You May Have | . | Academic Integrity | Plagiarism | Group Work | Class Conduct | Late Work/Make-up Policy | Incomplete Grades | Diversity and Inclusion | Title IX and Gendered Identity | Expectations of the Instructor | Copyright/Fair Use Statement | . | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#syllabus",
+    "url": "http://localhost:4000/about/#syllabus",
     "relUrl": "/about/#syllabus"
   },"10": {
     "doc": "About",
     "title": "Course Information",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-information",
+    "url": "http://localhost:4000/about/#course-information",
     "relUrl": "/about/#course-information"
   },"11": {
     "doc": "About",
     "title": "Course Name and Number",
     "content": "Selected Topics in Algebra: Derived categories in algebraic geometry II – Math 748 . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-name-and-number",
+    "url": "http://localhost:4000/about/#course-name-and-number",
     "relUrl": "/about/#course-name-and-number"
   },"12": {
     "doc": "About",
     "title": "Term",
     "content": "Spring 2022 . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#term",
+    "url": "http://localhost:4000/about/#term",
     "relUrl": "/about/#term"
   },"13": {
     "doc": "About",
     "title": "Meeting Time and Location",
     "content": "Tuesdays and Thursdays 10:05-11:20 AM in Room 3006B of the Carolina Coliseum . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#meeting-time-and-location",
+    "url": "http://localhost:4000/about/#meeting-time-and-location",
     "relUrl": "/about/#meeting-time-and-location"
   },"14": {
     "doc": "About",
     "title": "Instructor Information",
     "content": ". | Instructor Name and Preferred Title: Prof. Matthew (Matt) Ballard | Preferred pronouns: He/Him/His | Office : Carolina Coliseum Room 1022C | E-mail: ballard@math.sc.edu | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#instructor-information",
+    "url": "http://localhost:4000/about/#instructor-information",
     "relUrl": "/about/#instructor-information"
   },"15": {
     "doc": "About",
     "title": "Office Hours",
     "content": "Tuesdays 12-3 or by appointment . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#office-hours",
+    "url": "http://localhost:4000/about/#office-hours",
     "relUrl": "/about/#office-hours"
   },"16": {
     "doc": "About",
     "title": "Full Course Description",
     "content": "This is the second in a two-semester course. With much of the background of triangulated categories set, we focus on the structure of derived categories of (quasi-)coherent sheaves on schemes. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#full-course-description",
+    "url": "http://localhost:4000/about/#full-course-description",
     "relUrl": "/about/#full-course-description"
   },"17": {
     "doc": "About",
     "title": "Prerequisites",
     "content": "Math 738: Derived categories in algebraic geometry I. Fall 2021. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#prerequisites",
+    "url": "http://localhost:4000/about/#prerequisites",
     "relUrl": "/about/#prerequisites"
   },"18": {
     "doc": "About",
     "title": "Learning Outcomes",
     "content": "After successful completion of this course, you will be able to: . | Localize triangulated categories for fun and profit | Draw confusing diagrams that claim to explain the octohedral axiom | Day dream about stable $\\infty$-categories | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#learning-outcomes",
+    "url": "http://localhost:4000/about/#learning-outcomes",
     "relUrl": "/about/#learning-outcomes"
   },"19": {
     "doc": "About",
     "title": "Course Materials",
     "content": "The main resources for materials are . | the course website, | the course channel in the SCAGNT Zulip | the GitHub Classroom, and | the Microsoft Team for the course. | . Supplemental course materials will be linked as necessary. All course materials comply with copyright/fair use policies. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-materials",
+    "url": "http://localhost:4000/about/#course-materials",
     "relUrl": "/about/#course-materials"
   },"20": {
     "doc": "About",
     "title": "Course Requirements",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-requirements",
+    "url": "http://localhost:4000/about/#course-requirements",
     "relUrl": "/about/#course-requirements"
   },"21": {
     "doc": "About",
     "title": "Course Format",
     "content": "The course is a standard lecture course. At the end of the class, a paper will be due in place of a final exam. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-format",
+    "url": "http://localhost:4000/about/#course-format",
     "relUrl": "/about/#course-format"
   },"22": {
     "doc": "About",
     "title": "Course Communication",
     "content": "If you need to get in touch with me, the best method is via Zulip chat or email. Generally, I will reply within 24 hour. If you are having trouble with this course or its material, you should contact me via Zulip chat or email to discuss the issues. Announcements will be posted to this course whenever necessary. If there is any other information I think is important, I will send it to your preferred university email address. It is your responsibility to ensure that your email account works properly in order to receive email. If you are unsure of your preferred email, check your account at myaccount.sc.edu. For more information on setting your preferred university email, please see the Knowledge Base Article How To Change Your Primary University Email Address. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-communication",
+    "url": "http://localhost:4000/about/#course-communication",
     "relUrl": "/about/#course-communication"
   },"23": {
     "doc": "About",
     "title": "Technology",
     "content": "To participate in learning activities and complete assignments, you will need: . | Access to a working computer that has a current operating system with updates installed with a modern web browser installed; . | Reliable Internet access and a USC email account; . | We are using the Microsoft Teams with the team COTEAM-BALLARMR-MATH-738-001-FALL-2021 run through your UofSC Microsoft account. To access the team for the first time on your desktop/laptop, use the join link included in your welcome email. | For chat, We will be using a service called Zulip to aid our learning. It exceeds Team’s capabilities with regards to typsetting mathematics content. To access the SCAGNT Zulip chat for the first time on your desktop/laptop, use the join link included in your welcome email. | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#technology",
+    "url": "http://localhost:4000/about/#technology",
     "relUrl": "/about/#technology"
   },"24": {
     "doc": "About",
     "title": "Minimal Technical Skills Needed",
     "content": "Minimal technical skills are needed in this course. All work in this course must be completed and submitted online. Therefore, you must have consistent and reliable access to a computer and the Internet. The minimal technical skills you have include the ability to: . | Organize and save electronic files; . | Check and use the course, GitHub Classroom, Zulip, and Microsoft Teams sites regularly; . | Download and upload documents; . | Locate and enter information with a browser; . | Edit and compile TeX documents. | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#minimal-technical-skills-needed",
+    "url": "http://localhost:4000/about/#minimal-technical-skills-needed",
     "relUrl": "/about/#minimal-technical-skills-needed"
   },"25": {
     "doc": "About",
     "title": "Technical Support",
     "content": "If you have problems with your computer, technology, IT-related questions, support, including Microsoft Teams, please contact the Division of Information Technology (DoIT) Service Desk at (803) 777-1800 or submit an online request through the Self-Service Portal or visit the Carolina Tech Zone. The Service Desk is open Monday – Friday from 8:00 AM – 6:00 PM (Eastern Daylight Time). The Thomas Cooper Library at USC has computers for you to use in case you encounter computer issues/problems. If you have problems with Zulip or GitHub Classroom, contact me. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#technical-support",
+    "url": "http://localhost:4000/about/#technical-support",
     "relUrl": "/about/#technical-support"
   },"26": {
     "doc": "About",
     "title": "Course Assignments and Grading",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-assignments-and-grading",
+    "url": "http://localhost:4000/about/#course-assignments-and-grading",
     "relUrl": "/about/#course-assignments-and-grading"
   },"27": {
     "doc": "About",
     "title": "Homework",
     "content": "Except for the zeroth one, homework can be completed in groups of 1-4. All sources utilized must be cited. Homework is submitted as TeX files. The assignments will be available in and must be returned through GitHub Classroom. As part of the homework, you will learn how to use git. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#homework",
+    "url": "http://localhost:4000/about/#homework",
     "relUrl": "/about/#homework"
   },"28": {
     "doc": "About",
     "title": "Paper",
     "content": "In lieu of a finals, papers on more in depth topics are required. Contact me to arrange for a topic. Suggestions will be provided as we progress. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#paper",
+    "url": "http://localhost:4000/about/#paper",
     "relUrl": "/about/#paper"
   },"29": {
     "doc": "About",
     "title": "Evaluation and Grading Scale",
     "content": "All grades will be posted on Teams. A final letter grade will be assigned based on weighting below. Assignment Weights . | Component | Percent of total | . | Participation | 33% | . | Homework | 33% | . | Paper | 33% | . Grading Scale . | Final total intervals | Letter Grade | . | [90,100] | A | . | [85,90) | B+ | . | [80,85) | B | . | [75,80) | C+ | . | [70,75) | C | . | [65,70) | D+ | . | [60,65) | D | . | [0,60) | F | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#evaluation-and-grading-scale",
+    "url": "http://localhost:4000/about/#evaluation-and-grading-scale",
     "relUrl": "/about/#evaluation-and-grading-scale"
   },"30": {
     "doc": "About",
     "title": "Assignment Submission",
     "content": "Assignment submission will be through the GitHub Classroom for the course. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#assignment-submission",
+    "url": "http://localhost:4000/about/#assignment-submission",
     "relUrl": "/about/#assignment-submission"
   },"31": {
     "doc": "About",
     "title": "Revisions",
     "content": "All homework turned in on-time is eligible for revision at full credit. Each assignment can undergo at most two revisions. Revisions must be resubmitted within one week of receiving a marked assignment or revision. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#revisions",
+    "url": "http://localhost:4000/about/#revisions",
     "relUrl": "/about/#revisions"
   },"32": {
     "doc": "About",
     "title": "Academic Success",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#academic-success",
+    "url": "http://localhost:4000/about/#academic-success",
     "relUrl": "/about/#academic-success"
   },"33": {
     "doc": "About",
     "title": "Accessibility",
     "content": "The Student Disability Resource Center (SDRC) empowers students to manage challenges and limitations imposed by disabilities. Students with disabilities are encouraged to contact me to discuss the logistics of any accommodations needed to fulfill course requirements (within the first week of the semester). In order to receive reasonable accommodations from me, you must be registered with the Student Disability Resource Center (1705 College Street Close-Hipp, Suite 102 Columbia, SC 29208, 803-777-6142). Any student with a documented disability should contact the SDRC to make arrangements for appropriate accommodations. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#accessibility",
+    "url": "http://localhost:4000/about/#accessibility",
     "relUrl": "/about/#accessibility"
   },"34": {
     "doc": "About",
     "title": "University Library Resources",
     "content": "University Libraries has access to books, articles, subject specific resources, citation help, and more. If you are not sure where to start, please Ask a Librarian! Assistance is available at sc.edu/libraries/ask.  . Remember that if you use anything that is not your own writing or media (quotes from books, articles, interviews, websites, movies – everything) you must cite the source in MLA (or other appropriate and approved) format. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#university-library-resources",
+    "url": "http://localhost:4000/about/#university-library-resources",
     "relUrl": "/about/#university-library-resources"
   },"35": {
     "doc": "About",
     "title": "Teams and Technology",
     "content": "Teams and Technology. As a student in this course, you have access to support from the Division of Information Technology (DoIT) for Teams and computer issues. The service desk can be reached at 803-777-1800. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#teams-and-technology",
+    "url": "http://localhost:4000/about/#teams-and-technology",
     "relUrl": "/about/#teams-and-technology"
   },"36": {
     "doc": "About",
     "title": "Counseling Services",
     "content": "The University offers counseling and crisis services as well as outreach services and self-help. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#counseling-services",
+    "url": "http://localhost:4000/about/#counseling-services",
     "relUrl": "/about/#counseling-services"
   },"37": {
     "doc": "About",
     "title": "Course Policies and Procedures",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#course-policies-and-procedures",
+    "url": "http://localhost:4000/about/#course-policies-and-procedures",
     "relUrl": "/about/#course-policies-and-procedures"
   },"38": {
     "doc": "About",
     "title": "Attendance Policy and COVID Reporting",
     "content": "You are expected to participate actively in each course. If you anticipate an excused absence, you need to contact me in advance. You should submit a request in writing (email is acceptable) stating the dates of the anticipated absence, explaining the reason for absence, providing supporting documentation as required above, and including any request for make-up work. You should submit this request no later than the end of the second week of regularly scheduled classes in a full fall or spring semester term and within twice the length of the drop/add period for any other term. If regularly attending class becomes difficult for any reason, please contact me to discuss the issue. In accordance with university policy, a grade penalty of 10% may be imposed if a student has unexcused absensces exceeding 5% of the total number of courses. For this course, that means missing TWO courses without excuse. All absences due to documented illness or quarantine will be excused, and no grade penalty will be assessed for missing classes for this reason. If you experience COVID-19 symptoms, please stay home, contact the COVID-19 Student Health Services (SHS) nurse line (803-576-8511), complete the COVID-19 Student Report Form and select the option allowing the Student Ombuds to contact your professors. When talking with the SHS nurse, be sure to ask for documentation of the consult as you will need this to document why you missed class. You will also use the COVID-19 Student Report Form if you have tested positive for COVID-19 or if you have been ordered to quarantine because of close contact with a person who was COVID-19 positive. In each of these situations you will be provided appropriate documentation that can be shared through the Student Report Form. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#attendance-policy-and-covid-reporting",
+    "url": "http://localhost:4000/about/#attendance-policy-and-covid-reporting",
     "relUrl": "/about/#attendance-policy-and-covid-reporting"
   },"39": {
     "doc": "About",
     "title": "COVID Policies",
     "content": "As of 8/17/2021, UofSC requires face coverings, including in this class. For more information on this semester’s COVID policies see the guidance from the Provost. I strongly encourage getting vaccinated. I encourage physical distancing. While not always possible, I will strive to keep everyone at least three feet apart, even when working in groups, which we will do regularly. If you feel uncomfortable with group work in my class, please come talk with me and I don’t mind letting you work independently at all. I have been requested to keep a seating chart. I have been urged to keep this seating chart for contact tracing purposes and will do my best to abide by the University policy. Questions You May Have . What if I get sick with COVID? Two things have to occur: Isolation: Students who have been diagnosed with COVID-19 are released from isolation when a medical professional has determined, based on the current CDC and DHEC guidelines, that they have recovered. Currently, these guidelines include being fever-free for at least 24 hours and at least 10 days from their first symptom or positive test if they are asymptomatic. Quarantine: Unvaccinated students who are deemed a close contact with a confirmed COVID-19 case will be quarantined for 7-14 days from their last contact with the infected individual. More specifically, students who test negative on day 5, 6, or 7 can leave quarantine after 7 full days; individuals who did not test but remain asymptomatic can leave after 10 full days. Individuals who are symptomatic or have other health concerns may be advised to remain under quarantine for 14 days.  . What is the attendance policy if I get COVID? In brief, I must provide make-up course work including content and assignments when students have excused absences which include (but are not limited to) being in quarantine or isolation, religious holidays, medical conditions related to pregnancy, and military duty. However, recorded classes and hybrid/online options are not required and should not be expected. All excused absences must have documentation. See syllabus for further attendance policies. How will the Dr. Ballard know if I am absent due to quarantine or isolation? COVID-19 related absences must be document through the Student Ombudsman.  Students who have been diagnosed with COVID-19 or have been exposed and require quarantining should complete the COVID-19 Student Report Form and instructors should request this form in order to excuse the absence.  . Can I inquire about classmates condition with COVID? Sadly, not with me. These are health issues and the information is protected by state and federal law. If an individual student has questions about whether they should quarantine or believe that they have been in close contact, have them reach out to the COVID Phone Bank (803-576-8511). Would we ever change to go online if too many people are sick? Only in the rare instance that 30% or more of students have documented excused absences may I take the course online. This is not to be expected and very complicated according to the current policies. What if Dr. Ballard gets sick with COVID? I have been fully vaccinated and breakthrough infection symptoms most often resemble the common cold. In the event of a breakthrough infection, I will enter the self-isolation period and the course will switch modality to synchronous online temporarily. In the rare circumstance I am unable to teach remotely, a substitute instructor will take over the course. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#covid-policies",
+    "url": "http://localhost:4000/about/#covid-policies",
     "relUrl": "/about/#covid-policies"
   },"40": {
     "doc": "About",
     "title": "Academic Integrity",
     "content": "You are expected to practice the highest possible standards of academic integrity. Any deviation from this expectation will result in a minimum academic penalty of your failing the assignment, and will result in additional disciplinary measures. This includes improper citation of sources, using another student’s work, and any other form of academic misrepresentation. The first tenet of the Carolinian Creed is, “I will practice personal and academic integrity.” . Below are some websites for you to visit to learn more about University policies: . | Carolinian Creed . | Academic Responsibility . | Office of Student Conduct and Academic Integrity . | Information Security Policy and Standards . | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#academic-integrity",
+    "url": "http://localhost:4000/about/#academic-integrity",
     "relUrl": "/about/#academic-integrity"
   },"41": {
     "doc": "About",
     "title": "Plagiarism",
     "content": "Using the words or ideas of another as if they were one’s own is a serious form of academic dishonesty. If another person’s complete sentence, syntax, key words, or the specific or unique ideas and information are used, one must give that person credit through proper citation. You should in particular cite any resources, person, text, or otherwise, you used to assist in preparation of your work. Copying proofs or problem solutions is strictly forbidden. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#plagiarism",
+    "url": "http://localhost:4000/about/#plagiarism",
     "relUrl": "/about/#plagiarism"
   },"42": {
     "doc": "About",
     "title": "Group Work",
     "content": "Group work should be performed in safe manner. Remote work will certainly form a larger component of a career going forward. You are encouraged to take advantage of Microsoft Teams video conferencing and Zulip chat abilities to aid in collaboration. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#group-work",
+    "url": "http://localhost:4000/about/#group-work",
     "relUrl": "/about/#group-work"
   },"43": {
     "doc": "About",
     "title": "Class Conduct",
     "content": "Professionalism will be expected at all times, but most especially with your interactions online and in person. Because the university classroom is a place designed for the free exchange of ideas, we must show respect for one another in all circumstances. We will show respect for one another by exhibiting patience and courtesy in our exchanges. Appropriate language and restraint from verbal attacks upon those whose perspectives differ from your own is a minimum requirement. Courtesy and kindness is the norm for those who participate in the class. Mistakes, in particular during the running phase, are expected and natural. Mistakes are how learning happens. All students should recognize and respect the bravery of a student presenting a proof or solution. If you ever feel uncomfortable beyond the intellectual challenge of the course, please contact me. Teams is a way for you to share your ideas and learning with your colleagues in this class. We do this as colleagues in learning, and the online space is meant to be a safe and respectful environment for us to conduct these discussions. Some general netiquette rules: . | Treat one another with respect. It will be expected that we will not attack one another personally for holding different opinions. | Do not use all CAPITAL LETTERS in emails or discussion board postings. This is considered “shouting” and is seen as impolite or aggressive. | Begin emails with a proper salutation (Examples: Dr. Name; Ms. Name; Hello Professor Name; Good afternoon Mr. Name). Starting an email without a salutation or a simple “Hey” is not appropriate. | When sending an email, please include a detailed subject line. Additionally, make sure you reference the course number (Ex. ENGL 287) in the message and sign the mail with your name. | Use proper grammar, spelling, punctuation, and capitalization. Text messaging language is not acceptable. | Use good taste when communicating. Profanity should be avoided. | Re-Read, think, and edit your message before you click “Send/Submit/Post.” . | Please remember when posting to be respectful and courteous to your colleagues, and limit your communication to topics of this course and the assignments. | . ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#class-conduct",
+    "url": "http://localhost:4000/about/#class-conduct",
     "relUrl": "/about/#class-conduct"
   },"44": {
     "doc": "About",
     "title": "Late Work/Make-up Policy",
     "content": "All assignments due by the deadline as posted on the course schedule. Late work is not accepted and not eligible for revision. Please plan accordingly, and complete these assignments in advance of their deadlines to ensure any unanticipated circumstances do not result in a missed assignment. User error does not qualify you for any kind of makeup or retake opportunity. Completing and submitting the assignments by the due date is the sole responsibility of you. If you fail to submit the assignment or test by the due date, then your score for that assignment will be recorded as “zero.” . You will be allowed to access the assignments an unlimited number of times until the due date/time. If you are concerned about missing a deadline, post your assignment the day before the deadline. Be Careful: The clock on your computer may be different than the clock in Teams. If the clock is different by one second, you will be locked out of the assignment. Plan accordingly. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#late-workmake-up-policy",
+    "url": "http://localhost:4000/about/#late-workmake-up-policy",
     "relUrl": "/about/#late-workmake-up-policy"
   },"45": {
     "doc": "About",
     "title": "Incomplete Grades",
     "content": "The grade of Incomplete will be granted only in accordance with university policy. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#incomplete-grades",
+    "url": "http://localhost:4000/about/#incomplete-grades",
     "relUrl": "/about/#incomplete-grades"
   },"46": {
     "doc": "About",
     "title": "Diversity and Inclusion",
     "content": "The university is committed to a campus environment that is inclusive, safe, and respectful for all persons, and one that fully embraces the Carolinian Creed: “I will discourage bigotry, while striving to learn from differences in people, ideas and opinions.” Likewise, the Student Code of Conduct stresses, “The University of South Carolina strives to maintain an educational community that fosters the development of students who are ethical, civil and responsible persons.” . To that end, all course activities will be conducted in an atmosphere of friendly participation and interaction among colleagues, recognizing and appreciating the unique experiences, background, and point of view each student brings. You are expected at all times to apply the highest academic standards to this course and to treat others with dignity and respect. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#diversity-and-inclusion",
+    "url": "http://localhost:4000/about/#diversity-and-inclusion",
     "relUrl": "/about/#diversity-and-inclusion"
   },"47": {
     "doc": "About",
     "title": "Title IX and Gendered Identity",
     "content": "This course affirms equality and respect for all gendered identities and expressions. Please don’t hesitate to correct me regarding your preferred gender pronoun and/or name if different from what is indicated on the official class roster. Likewise, I am committed to nurturing an environment free from discrimination and harassment. Consistent with Title IX policy, please be aware that I as a responsible employee am obligated to report information that you provide to me about a situation involving sexual harassment or assault. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#title-ix-and-gendered-identity",
+    "url": "http://localhost:4000/about/#title-ix-and-gendered-identity",
     "relUrl": "/about/#title-ix-and-gendered-identity"
   },"48": {
     "doc": "About",
     "title": "Expectations of the Instructor",
     "content": "I am expected to facilitate learning, answer questions appropriately, be fair and objective in grading, provide timely and useful feedback on assignments and treat you as I would like to be treated. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#expectations-of-the-instructor",
+    "url": "http://localhost:4000/about/#expectations-of-the-instructor",
     "relUrl": "/about/#expectations-of-the-instructor"
   },"49": {
     "doc": "About",
     "title": "Copyright/Fair Use Statement",
     "content": "I will cite and/or reference any materials that I use in this course that I do not create. Anything that appears on this website is copyright © 2021 Matthew Ballard and is distributed by an MIT license. Course materials that do not appear on this website are copyright © 2021 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion. ",
-    "url": "https://748.s22.matthewrobertballard.com/about/#copyrightfair-use-statement",
+    "url": "http://localhost:4000/about/#copyrightfair-use-statement",
     "relUrl": "/about/#copyrightfair-use-statement"
   },"50": {
     "doc": "About",
     "title": "About",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about/",
+    "url": "http://localhost:4000/about/",
     "relUrl": "/about/"
   },"51": {
     "doc": "This Website",
     "title": "About this website",
     "content": "This website is hosted on GitHub and relies on Jekyll to generate the content. It uses the Just the Class theme which built off the Just the Docs theme. At material appearing here is copyright © 2021 Matthew Ballard and is distributed with an MIT license. ",
-    "url": "https://748.s22.matthewrobertballard.com/about_this_webpage/#about-this-website",
+    "url": "http://localhost:4000/about_this_webpage/#about-this-website",
     "relUrl": "/about_this_webpage/#about-this-website"
   },"52": {
     "doc": "This Website",
     "title": "This Website",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/about_this_webpage/",
+    "url": "http://localhost:4000/about_this_webpage/",
     "relUrl": "/about_this_webpage/"
   },"53": {
     "doc": "Announcements",
     "title": "Announcements",
     "content": "Announcements are stored in the _announcements directory and rendered according to the layout file, _layouts/announcement.html. ",
-    "url": "https://748.s22.matthewrobertballard.com/announcements/",
+    "url": "http://localhost:4000/announcements/",
     "relUrl": "/announcements/"
   },"54": {
     "doc": "Announcements",
     "title": "Week 1 Announcement",
     "content": "Aug 17 &middot; 0 min read Due to an immovable medical appointment, the first class (Aug 19) is rescheduled. We will figure if and how to make it up at a later date. ",
-    "url": "https://748.s22.matthewrobertballard.com/announcements/",
+    "url": "http://localhost:4000/announcements/",
     "relUrl": "/announcements/"
   },"55": {
     "doc": "Calendar",
     "title": "Calendar",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/calendar/",
+    "url": "http://localhost:4000/calendar/",
     "relUrl": "/calendar/"
   },"56": {
     "doc": "Calendar",
     "title": "Derived categories of projective spaces",
-    "content": "Jan 10 Quasi-coherent sheaves on projective varieties Jan 12 Cech cohomology Jan 17 Cotangent sheaves ",
-    "url": "https://748.s22.matthewrobertballard.com/calendar/#derived-categories-of-projective-spaces",
+    "content": "Jan 11 Quasi-coherent sheaves on projective varieties Jan 13 Exceptional collections and Cech cohomology Jan 17 ",
+    "url": "http://localhost:4000/calendar/#derived-categories-of-projective-spaces",
     "relUrl": "/calendar/#derived-categories-of-projective-spaces"
   },"57": {
     "doc": "Derived Categories",
     "title": "Spring 2022 Math 748 at UofSC",
     "content": "We will localize some categories and have fun doing it. ",
-    "url": "https://748.s22.matthewrobertballard.com/#spring-2022-math-748-at-uofsc",
+    "url": "http://localhost:4000/#spring-2022-math-748-at-uofsc",
     "relUrl": "/#spring-2022-math-748-at-uofsc"
   },"58": {
     "doc": "Derived Categories",
     "title": "Syllabus",
     "content": "The syllabus can be found at the about tab. ",
-    "url": "https://748.s22.matthewrobertballard.com/#syllabus",
+    "url": "http://localhost:4000/#syllabus",
     "relUrl": "/#syllabus"
   },"59": {
     "doc": "Derived Categories",
     "title": "Calendar",
     "content": "At the calendar tab, you will find our topic schedule and due dates for assignments. ",
-    "url": "https://748.s22.matthewrobertballard.com/#calendar",
+    "url": "http://localhost:4000/#calendar",
     "relUrl": "/#calendar"
   },"60": {
     "doc": "Derived Categories",
     "title": "Notes",
     "content": "The notes tab is where you can find the course notes. ",
-    "url": "https://748.s22.matthewrobertballard.com/#notes",
+    "url": "http://localhost:4000/#notes",
     "relUrl": "/#notes"
   },"61": {
     "doc": "Derived Categories",
     "title": "Homework",
     "content": "There is also a tab for class homework. ",
-    "url": "https://748.s22.matthewrobertballard.com/#homework",
+    "url": "http://localhost:4000/#homework",
     "relUrl": "/#homework"
   },"62": {
     "doc": "Derived Categories",
     "title": "Weekly schedule",
     "content": "If you ever need to remind yourself about the time and coordinates of our course or my office hours, you can quickly reference at the schedule tab. ",
-    "url": "https://748.s22.matthewrobertballard.com/#weekly-schedule",
+    "url": "http://localhost:4000/#weekly-schedule",
     "relUrl": "/#weekly-schedule"
   },"63": {
     "doc": "Derived Categories",
     "title": "Me",
     "content": "If you are interested in a bit about who I am and what I do, check out the Me tab or visit my website. ",
-    "url": "https://748.s22.matthewrobertballard.com/#me",
+    "url": "http://localhost:4000/#me",
     "relUrl": "/#me"
   },"64": {
     "doc": "Derived Categories",
     "title": "Derived Categories",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/",
+    "url": "http://localhost:4000/",
     "relUrl": "/"
   },"65": {
     "doc": "Homework",
     "title": "Homework",
     "content": ". | Homework 1. Due Date: September 15 . | Homework 2. Due Date: October 21 . | Homework 0. Due Date: August 26 . | . ",
-    "url": "https://748.s22.matthewrobertballard.com/homework/",
+    "url": "http://localhost:4000/homework/",
     "relUrl": "/homework/"
   },"66": {
     "doc": "Notes",
     "title": "Course Notes",
     "content": "We will record notes from the course here. ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/intro/#course-notes",
+    "url": "http://localhost:4000/notes/intro/#course-notes",
     "relUrl": "/notes/intro/#course-notes"
   },"67": {
     "doc": "Notes",
     "title": "Notes",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/notes/intro/",
+    "url": "http://localhost:4000/notes/intro/",
     "relUrl": "/notes/intro/"
   },"68": {
     "doc": "Schedule",
     "title": "Weekly Schedule",
     "content": ". | 7:30 AM | 8:00 AM | 8:30 AM | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | . | ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/#weekly-schedule",
+    "url": "http://localhost:4000/schedule/#weekly-schedule",
     "relUrl": "/schedule/#weekly-schedule"
   },"69": {
     "doc": "Schedule",
     "title": "Monday",
     "content": "| ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/",
+    "url": "http://localhost:4000/schedule/",
     "relUrl": "/schedule/"
   },"70": {
     "doc": "Schedule",
     "title": "Tuesday",
     "content": ". | Class 10:05 AM–11:20 AM COL 3006B | Office Hours 7:45 AM–8:30 AM COL 1022C | Office Hours 11:30 AM–12:15 PM COL 1022C | . | ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/",
+    "url": "http://localhost:4000/schedule/",
     "relUrl": "/schedule/"
   },"71": {
     "doc": "Schedule",
     "title": "Wednesday",
     "content": "| ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/",
+    "url": "http://localhost:4000/schedule/",
     "relUrl": "/schedule/"
   },"72": {
     "doc": "Schedule",
     "title": "Thursday",
     "content": ". | Class 10:05 AM–11:20 AM COL 3006B | Office Hours 7:45 AM–8:30 AM COL 1022C | Office Hours 11:30 AM–12:15 PM COL 1022C | . | ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/",
+    "url": "http://localhost:4000/schedule/",
     "relUrl": "/schedule/"
   },"73": {
     "doc": "Schedule",
     "title": "Friday",
     "content": "| . ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/",
+    "url": "http://localhost:4000/schedule/",
     "relUrl": "/schedule/"
   },"74": {
     "doc": "Schedule",
     "title": "Schedule",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/schedule/",
+    "url": "http://localhost:4000/schedule/",
     "relUrl": "/schedule/"
   },"75": {
     "doc": "Me",
     "title": "Staff",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/staff/#staff",
+    "url": "http://localhost:4000/staff/#staff",
     "relUrl": "/staff/#staff"
   },"76": {
     "doc": "Me",
     "title": "Instructor",
     "content": "Matthew Ballard . ballard@math.sc.edu . Schedule an appointment . I am an Associate Professor in the Department of Mathematics at the University of South Carolina. I have been teaching mathematics for almost two decades and have guided nearly 1000 students from all levels through math courses. A mindset focused on growth is essential for learning mathematics. Each day is a small step forward. When we turn around at the end of the course, only then, do we see how far we have truly traveled. For more of my pedagogical philosophy and experience, take a look at the teaching page. As an extension of teaching, I take pride in mentoring researchers at any stage. For a brief introduction to my mentees see the mentoring page. In my research, I study algebraic geometry and am particularly interested in questions arising from Homological Mirror Symmetry. Much of my current work focuses on derived categories and their relation to more classical questions. My research has been partially supported by the Simons Foundation and the National Science Foundation. It has also benefited from a membership at the Institute for Advanced Study, funding from UofSC, and the Southeastern Conference. For more information about me, see my CV. For a research summary and a list of my papers, take a look at my research page. I regularly organize mathematical events, even virtual ones. For the full list of events, see the organizing page. If you are interested in participating, contact me. ",
-    "url": "https://748.s22.matthewrobertballard.com/staff/#instructor",
+    "url": "http://localhost:4000/staff/#instructor",
     "relUrl": "/staff/#instructor"
   },"77": {
     "doc": "Me",
     "title": "Me",
     "content": " ",
-    "url": "https://748.s22.matthewrobertballard.com/staff/",
+    "url": "http://localhost:4000/staff/",
     "relUrl": "/staff/"
   }
 }

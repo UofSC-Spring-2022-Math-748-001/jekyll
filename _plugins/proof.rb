@@ -1,16 +1,26 @@
 module Jekyll
   module Tags
     class RenderProof < Liquid::Block
-  
+
       def render(context)
-        text = super
+        site = context.registers[:site]
+        page = context.registers[:page]
+        converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
+        body = converter.convert(super(context))
+        if page["proofOpen"]
+          flag = "open"
+        else 
+          flag = ""
+        end 
 
         output = <<~EOS
-          <details markdown="block">
+          
+          <details #{flag}>
           <summary>
           <b>Proof</b>. (Expand to view)
           </summary> 
-          <p>#{text} <span style="float:right;"> &#9632; </span></p>
+          <p>#{body}</p> 
+          <span style="float:right;"> &#9632; </span>&nbsp;
           </details>
         EOS
 
