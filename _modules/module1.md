@@ -10,7 +10,7 @@ Jan 13
 : [Exceptional collections and Cech cohomology]({% link notes/2022_01_13.md %})
 
 Jan 17
-: []({% link notes/2022_01_18.md %})
+: [??]({% link notes/2022_01_18.md %})
 
 
 
